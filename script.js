@@ -1,4 +1,4 @@
-function drawTetrisPlayground(x, y, target) {
+ function drawTetrisPlayground(x, y, target) {
     if (x <= 0 || y <= 0) throw new Error('x and y cannot be negative');
 
     for (let rowsCount = 0; rowsCount < y; rowsCount++) {
